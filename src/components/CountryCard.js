@@ -3,9 +3,9 @@ import './CountryCard.css';
 
 function CountryCard({img, name}) {
   return (
-    <div className="country-card">
+    <div className="countryCard">
         <img src={img} alt={name} />
-        <h3>{name}</h3>
+        <h2>{name}</h2>
     </div>
   )
 }
